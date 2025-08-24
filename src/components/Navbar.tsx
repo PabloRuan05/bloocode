@@ -6,10 +6,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Contact", href: "#contact" }
+    { name: "Início", href: "#home" },
+    { name: "Serviços", href: "#services" },
+    { name: "Portfólio", href: "#portfolio" },
+    { name: "Contato", href: "#contact" }
   ];
 
   return (
@@ -36,7 +36,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="hero" size="sm">
-              Get Quote
+              Solicitar Orçamento
             </Button>
           </div>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="hero" size="sm" className="w-full mt-4">
-                Get Quote
+                Solicitar Orçamento
               </Button>
             </div>
           </div>

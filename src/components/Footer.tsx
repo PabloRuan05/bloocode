@@ -16,8 +16,8 @@ const Footer = () => {
               <span className="text-xl font-bold">WebDesign Pro</span>
             </div>
             <p className="text-white/80 leading-relaxed mb-6 max-w-md">
-              We create stunning, responsive websites that help businesses grow. 
-              From concept to launch, we deliver digital experiences that captivate your audience.
+              Criamos sites impressionantes e responsivos que ajudam empresas a crescer. 
+              Do conceito ao lançamento, entregamos experiências digitais que cativam seu público.
             </p>
             <div className="flex gap-4">
               <Facebook className="w-5 h-5 text-white/60 hover:text-blue-primary cursor-pointer transition-colors" />
@@ -29,21 +29,21 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-white/80 hover:text-blue-primary transition-colors">Home</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-blue-primary transition-colors">Services</a></li>
-              <li><a href="#portfolio" className="text-white/80 hover:text-blue-primary transition-colors">Portfolio</a></li>
-              <li><a href="#contact" className="text-white/80 hover:text-blue-primary transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-white/80 hover:text-blue-primary transition-colors">Início</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-blue-primary transition-colors">Serviços</a></li>
+              <li><a href="#portfolio" className="text-white/80 hover:text-blue-primary transition-colors">Portfólio</a></li>
+              <li><a href="#contact" className="text-white/80 hover:text-blue-primary transition-colors">Contato</a></li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Serviços</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-white/80 hover:text-blue-primary transition-colors">Web Design</a></li>
-              <li><a href="#" className="text-white/80 hover:text-blue-primary transition-colors">Development</a></li>
+              <li><a href="#" className="text-white/80 hover:text-blue-primary transition-colors">Desenvolvimento</a></li>
               <li><a href="#" className="text-white/80 hover:text-blue-primary transition-colors">E-commerce</a></li>
               <li><a href="#" className="text-white/80 hover:text-blue-primary transition-colors">SEO</a></li>
             </ul>
@@ -52,7 +52,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-white/60">
-            © {currentYear} WebDesign Pro. All rights reserved.
+            © {currentYear} WebDesign Pro. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -10,10 +10,10 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Let's Build Something Amazing
+            Vamos Construir Algo Incrível
           </h2>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">
-            Ready to take your business online? Get in touch with us today for a free consultation.
+            Pronto para levar seu negócio online? Entre em contato conosco hoje para uma consulta gratuita.
           </p>
         </div>
         
@@ -21,31 +21,31 @@ const Contact = () => {
           {/* Contact Form */}
           <Card className="bg-white/5 border-white/10 backdrop-blur-sm">
             <CardHeader>
-              <CardTitle className="text-white text-2xl">Send us a message</CardTitle>
+              <CardTitle className="text-white text-2xl">Envie uma mensagem</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Input 
-                  placeholder="Your Name" 
+                  placeholder="Seu Nome" 
                   className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
                 />
                 <Input 
-                  placeholder="Your Email" 
+                  placeholder="Seu Email" 
                   type="email"
                   className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
                 />
               </div>
               <Input 
-                placeholder="Subject" 
+                placeholder="Assunto" 
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
               />
               <Textarea 
-                placeholder="Tell us about your project..." 
+                placeholder="Nos conte sobre seu projeto..." 
                 rows={5}
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
               />
               <Button variant="hero" size="lg" className="w-full">
-                Send Message
+                Enviar Mensagem
               </Button>
             </CardContent>
           </Card>
@@ -53,11 +53,11 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-semibold mb-6">Entre em Contato</h3>
               <p className="text-white/80 leading-relaxed mb-8">
-                We're here to help bring your vision to life. Whether you need a new website, 
-                want to redesign an existing one, or have questions about our services, 
-                we'd love to hear from you.
+                Estamos aqui para ajudar a dar vida à sua visão. Seja para um novo site, 
+                redesign de um existente, ou dúvidas sobre nossos serviços, 
+                adoraríamos ouvir de você.
               </p>
             </div>
             
@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-white/80">hello@webdesignpro.com</p>
+                  <p className="text-white/80">ola@webdesignpro.com</p>
                 </div>
               </div>
               
@@ -77,8 +77,8 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold">Phone</h4>
-                  <p className="text-white/80">+1 (555) 123-4567</p>
+                  <h4 className="font-semibold">Telefone</h4>
+                  <p className="text-white/80">+55 (11) 9999-8888</p>
                 </div>
               </div>
               
@@ -87,8 +87,8 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold">Location</h4>
-                  <p className="text-white/80">San Francisco, CA</p>
+                  <h4 className="font-semibold">Localização</h4>
+                  <p className="text-white/80">São Paulo, SP</p>
                 </div>
               </div>
               
@@ -97,8 +97,8 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold">Business Hours</h4>
-                  <p className="text-white/80">Mon - Fri: 9AM - 6PM PST</p>
+                  <h4 className="font-semibold">Horário de Funcionamento</h4>
+                  <p className="text-white/80">Seg - Sex: 9h - 18h</p>
                 </div>
               </div>
             </div>

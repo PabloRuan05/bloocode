@@ -5,19 +5,19 @@ import portfolioImage from "@/assets/portfolio-mockup.jpg";
 
 const portfolioItems = [
   {
-    title: "E-commerce Platform",
-    category: "Online Store",
-    description: "Modern e-commerce solution with seamless checkout experience"
+    title: "Plataforma E-commerce",
+    category: "Loja Online",
+    description: "Solução moderna de e-commerce com experiência de checkout perfeita"
   },
   {
-    title: "Corporate Website",
-    category: "Business",
-    description: "Professional corporate website with custom CMS integration"
+    title: "Site Corporativo",
+    category: "Empresarial",
+    description: "Site corporativo profissional com integração de CMS personalizada"
   },
   {
-    title: "Restaurant Chain",
-    category: "Food & Beverage",
-    description: "Multi-location restaurant website with online ordering system"
+    title: "Rede de Restaurantes",
+    category: "Alimentação",
+    description: "Site de rede de restaurantes com sistema de pedidos online"
   }
 ];
 
@@ -27,10 +27,10 @@ const Portfolio = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark mb-4">
-            Our Recent Work
+            Nossos Trabalhos Recentes
           </h2>
           <p className="text-lg text-neutral-medium max-w-2xl mx-auto">
-            Take a look at some of our latest projects and see how we've helped businesses succeed online
+            Dê uma olhada em alguns dos nossos projetos mais recentes e veja como ajudamos empresas a ter sucesso online
           </p>
         </div>
         
@@ -73,7 +73,7 @@ const Portfolio = () => {
         
         <div className="text-center">
           <Button variant="hero" size="lg" className="px-8 py-4">
-            View All Projects
+            Ver Todos os Projetos
           </Button>
         </div>
       </div>
