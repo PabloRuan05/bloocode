@@ -72,7 +72,12 @@ const Portfolio = () => {
         </div>
         
         <div className="text-center">
-          <Button variant="hero" size="lg" className="px-8 py-4">
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="px-8 py-4"
+            onClick={() => window.location.href = '/projetos'}
+          >
             Ver Todos os Projetos
           </Button>
         </div>

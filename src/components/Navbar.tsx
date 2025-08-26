@@ -35,9 +35,6 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Solicitar Orçamento
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -67,9 +64,6 @@ const Navbar = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="sm" className="w-full mt-4">
-                Solicitar Orçamento
-              </Button>
             </div>
           </div>
         )}
