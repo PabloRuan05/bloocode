@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Code2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,11 +18,13 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-primary rounded-lg flex items-center justify-center">
-              <Code2 className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-neutral-dark">WebDesign Pro</span>
+          <div className="flex items-center gap-3">
+            <img 
+              src={logo} 
+              alt="WebDesign Pro Logo" 
+              className="w-10 h-10 object-contain"
+            />
+            <span className="text-xl font-bold text-foreground">WebDesign Pro</span>
           </div>
 
           {/* Desktop Navigation */}
