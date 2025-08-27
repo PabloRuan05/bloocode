@@ -1,4 +1,5 @@
-import { Code2, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,10 +10,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-blue-primary rounded-lg flex items-center justify-center">
-                <Code2 className="w-5 h-5 text-white" />
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src={logo} 
+                alt="WebDesign Pro Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-xl font-bold">WebDesign Pro</span>
             </div>
             <p className="text-white/80 leading-relaxed mb-6 max-w-md">
