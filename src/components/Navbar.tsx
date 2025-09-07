@@ -10,21 +10,21 @@ const Navbar = () => {
     { name: "Início", href: "#home" },
     { name: "Serviços", href: "#services" },
     { name: "Portfólio", href: "#portfolio" },
-    { name: "Contato", href: "#contact" }
+    { name: "Contato", href: "#contact" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-neutral-light">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-b border-neutral-light">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img 
-              src={logo} 
-              alt="WebDesign Pro Logo" 
+            <img
+              src={logo}
+              alt="WebDesign Pro Logo"
               className="w-10 h-10 object-contain"
             />
-            <span className="text-xl font-bold text-foreground">WebDesign Pro</span>
+            <span className="text-xl font-bold text-white">BlooCode</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -33,7 +33,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-neutral-medium hover:text-blue-primary transition-colors duration-200 font-medium"
+                className="text-white-medium hover:text-blue-primary transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
@@ -48,7 +48,11 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="text-neutral-dark"
             >
-              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </Button>
           </div>
         </div>
