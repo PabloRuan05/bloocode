@@ -73,8 +73,8 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-
-        <div className="text-center">
+        {/* // REMOVI O BOTÃO Q LEVA PARA A PGN DE PROJETOS POIS A MSM NÃO ABRIA. */}
+        {/* <div className="text-center">
           <Button
             variant="hero"
             size="lg"
@@ -83,7 +83,7 @@ const Portfolio = () => {
           >
             Ver Todos os Projetos
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
