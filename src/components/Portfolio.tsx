@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
-import portfolioImage from "@/assets/portfolio-mockup.jpg";
+import portfolioImage from "@/assets/bloocodewhite.png";
 
 const portfolioItems = [
   {
